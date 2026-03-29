@@ -1,15 +1,12 @@
-# RAG Retrieval-Augmented Generation 研究方案
+# 端到端酒店搜索与推荐系统
 
 ## 研究背景与调研摘要
 
-RAG（Retrieval-Augmented Generation）是一种结合信息检索与大语言模型生成能力的AI技术。通过从外部知识库检索相关信息并将其作为提示输入给大语言模型，RAG提升了生成结果的准确性、时效性和可溯源性。现有研究和开源项目展示了RAG在问答、文本摘要、内容生成等任务中的应用。
+调研了多个酒店推荐系统的实现方案，包括基于Apache Spark和深度学习的系统（KirellosNader/An-End-to-End-Hotel-Recommendation-System-Using-Apache-Spark-and-Deep-Learning-）、基于OpenAI的系统（Elsa Amores Vera的博客文章）、以及多个酒店推荐数据集（HotelRec、Session-based Hotel Recommendations Dataset、Travel Recommendation Dataset）。选择了HotelRec数据集作为主要数据源，因为它包含约5000万条评论，非常适合大规模训练和评估推荐模型。
 
 ## 项目目标
 
-1. 理解RAG的基本原理和架构。
-2. 实现一个简单的RAG系统。
-3. 评估RAG系统的性能。
-4. 探索RAG在实际应用场景中的潜力。
+构建一个端到端的酒店搜索与推荐系统，利用Hugging Face的模型进行自然语言处理，并使用HotelRec数据集进行训练和评估。
 
 ## 实施计划
 

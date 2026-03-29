@@ -1,12 +1,12 @@
-# 端到端酒店搜索与推荐系统
+# 大语言模型实现方案
 
 ## 研究背景与调研摘要
 
-调研了多个酒店推荐系统的实现方案，包括基于Apache Spark和深度学习的系统（KirellosNader/An-End-to-End-Hotel-Recommendation-System-Using-Apache-Spark-and-Deep-Learning-）、基于OpenAI的系统（Elsa Amores Vera的博客文章）、以及多个酒店推荐数据集（HotelRec、Session-based Hotel Recommendations Dataset、Travel Recommendation Dataset）。选择了HotelRec数据集作为主要数据源，因为它包含约5000万条评论，非常适合大规模训练和评估推荐模型。
+本文档提供了从头开始构建、预训练和微调类似ChatGPT的大语言模型的代码和指南。涵盖了文本数据处理、注意力机制编码、GPT模型实现、无监督数据预训练、文本分类微调和指令跟随微调等内容。
 
 ## 项目目标
 
-构建一个端到端的酒店搜索与推荐系统，利用Hugging Face的模型进行自然语言处理，并使用HotelRec数据集进行训练和评估。
+构建一个小型但功能齐全的大语言模型，并理解其内部工作原理。
 
 ## 实施计划
 
